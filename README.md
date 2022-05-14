@@ -1,4 +1,4 @@
-# spring_multi_datasource
+# Spring multi datasource switcher
 This basic project show how to manage multiple H2 (or any other database) with springboot via Header interceptor.
 
 To swtich the datasource just set the header "database" according to property key "first" or "second"
@@ -9,6 +9,6 @@ To swtich the datasource just set the header "database" according to property ke
 - GET -> /api/v1/getUsers
 
 ### HEADER SETUP
-database:first switch to jdbc:h2:mem:primo
-database:second swtich to jdbc:h2:mem:secondo
+- database:first switch to jdbc:h2:mem:primo
+- database:second swtich to jdbc:h2:mem:secondo
 
