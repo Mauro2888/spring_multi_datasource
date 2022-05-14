@@ -8,6 +8,7 @@ To swtich the datasource just set the header "database" according to property ke
 - POST -> /api/v1/create 
 - GET -> /api/v1/getUsers
 
-HEADER -> database:first switch to jdbc:h2:mem:primo
-HEADER -> database:second swtich to jdbc:h2:mem:secondo
+### HEADER SETUP
+database:first switch to jdbc:h2:mem:primo
+database:second swtich to jdbc:h2:mem:secondo
 
