@@ -21,13 +21,13 @@ public class UserController {
     }
 
 
-    @PostMapping
+    @PostMapping("/create")
     public ResponseEntity<UserEntity>addUser(@RequestBody UserEntity userEntity){
         service.createUser(userEntity);
         return ResponseEntity.ok(userEntity);
     }
 
-    @GetMapping("/getAllUsers")
+    @GetMapping("/getUsers")
     public List<UserEntity> getAllUsers(){
         return service.findAllUsers();
     }
